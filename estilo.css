@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background: blue;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.header {
+    background: rgba(3, 61, 32, 0.884);
+    color: bisque;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.header li {
+    height: inherit;
+}
+
+.header a {
+   color: lavender;
+    height: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.menu {
+height: inherit;
+}
+
+.logo img {
+    width: 150px;
+}
+
+ul {
+    list-style: none; 
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+ }
+
+.principal {
+    background-image: url(../victor/img/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+h1 strong { 
+    color: #99cc00;
+}
+
+.principal-boton {
+    width: 250px;
+    height: 40px;
+    background-color: #99cc00;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+.principal img {
+    width: 300px;
+}
+.somos {
+    background: rgb(14, 65, 94);
+    color: white;
+    text-align: center;
+    padding: 50px;
+  font-size: 20px;
+}
+
+.somos h2 {
+    color: rgb(9, 250, 41);
+    margin-bottom: 10pm;
+}
+
+.somos p {
+    margin-bottom: 20px;
+}
+
+.principal p {
+    font-size: 40px;
+}
+.principa h1
+{ 
+    font-size: 50px;
+}
+/*
+.padre {
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.hijo{ 
+    background: orange;
+    width: 200px;
+    height: 200px;
+    border:  2px solid yellowgreen;
+    font-size: 30px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+.aplicar
+{
+    height: 500px;
+    background: greenyellow;
+    display: flex;
+    color: rgb(19, 33, 230);
+    padding: 10px;
+}
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+.aplicar-detalles img {
+    height: 80%;
+    
+}
+.tercera{
+    text-align: center;
+    background: rgb(0, 162, 255);
+    color: blue;
+    margin: 5px;
+}
+.container1{
+    display: flex;
+    background: #99cc00;
+    padding: 20px;   
+}
+
+.container2{
+    background: rgb(14, 65, 94);
+    text-align: center;
+}
+
+
+.col1-container1{
+    text-align: left;
+}
+
+.col2-container1{
+    text-align: center;
+    
+}
+
+.col3-container1{
+    text-align: right; 
+}
+    
